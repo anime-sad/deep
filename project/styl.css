@@ -1,0 +1,10 @@
+.banner{
+    background-image: url(https://anime-sad.github.io/deepakraj/project/zoro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+}
+
+.anime{
+    padding: 70px 0;
+}
