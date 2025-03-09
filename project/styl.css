@@ -64,8 +64,8 @@ body {
 /* Mobile Devices (576px and below) */
 @media screen and (max-width: 576px) {
     .zoro {
-        padding: 80px;
-        width: 10px;
+        padding: 50px;
+        
     }
 
     .zoro h1 {
