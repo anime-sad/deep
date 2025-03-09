@@ -1,6 +1,10 @@
 /* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
 }
 
 .zoro {
@@ -8,28 +12,47 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 200px;
+    padding: 200px 20px;
     text-align: center;
     color: white;
+    position: relative;
+}
+
+.zoro h1, .zoro h4, .zoro p {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
 
 .anime {
-    padding: 70px 0;
+    padding: 70px 20px;
+    text-align: center;
 }
 
 .card img {
     width: 50%;
     margin: auto;
     padding-top: 10px;
+    display: block;
 }
 
 .navbar {
     transition: all 0.3s ease-in-out;
+    background-color: black;
+    padding: 15px;
 }
 
 .navbar-brand {
     font-size: 24px;
     font-weight: bold;
+    color: red;
+}
+
+.navbar-toggler {
+    font-size: 18px;
+    color: white;
 }
 
 /* Responsive Design */
@@ -37,7 +60,8 @@ body {
 /* Tablets (768px and below) */
 @media screen and (max-width: 768px) {
     .zoro {
-        padding: 120px;
+        padding: 150px 20px;
+        background-size: contain;
     }
 
     .zoro h1 {
@@ -49,7 +73,7 @@ body {
     }
 
     .anime {
-        padding: 50px 0;
+        padding: 50px 20px;
     }
 
     .card img {
@@ -64,24 +88,23 @@ body {
 /* Mobile Devices (576px and below) */
 @media screen and (max-width: 576px) {
     .zoro {
-        padding: 80px;
-        background-size: contain; /* Adjust background size for mobile */
+        padding: 100px 20px;
+        background-size: cover;
+        background-position: center top;
     }
 
-    .zoro h1 {
-        font-size: 24px;
-    }
-
-    .zoro h4 {
+    .zoro h1, .zoro h4, .zoro p {
         font-size: 16px;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 5px 10px;
     }
 
     .anime {
-        padding: 30px 0;
+        padding: 30px 20px;
     }
 
     .card img {
-        width: 50%;
+        width: 60%;
     }
 
     .container {
