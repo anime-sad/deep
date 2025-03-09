@@ -65,7 +65,7 @@ body {
 @media screen and (max-width: 576px) {
     .zoro {
         padding: 50px;
-        
+        background-size: contain;
     }
 
     .zoro h1 {
