@@ -20,7 +20,6 @@ body {
 
 .zoro h1, .zoro h4, .zoro p {
     color: white;
-    background: rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 10px 15px;
     border-radius: 5px;
